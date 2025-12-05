@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalaiselvan Resume</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @media print {
+            .no-print { display: none !important; }
+            body { margin: 0; padding: 0; }
+            .resume-container { box-shadow: none; margin: 0; padding: 1rem; 
+            }
+            @page:first {margin-top: 0;}
+
+            @page {margin: 0;margin-top: 10mm;}
+        }
+    </style>
+</head>
+<body class="p-8 bg-gray-100">
+    <div class="max-w-5xl mx-auto">
+        <div class="flex justify-end mb-4 no-print">
+            <button onclick="window.print()" class="px-6 py-2 font-semibold text-white transition duration-200 bg-teal-600 rounded-lg shadow-md hover:bg-teal-700">
+                Print/Download Resume
+            </button>
+        </div>
+
+        <div class="p-8 bg-white rounded-lg resume-container">
+            <div class="mb-8 text-center">
+                <h1 class="mb-2 text-4xl font-bold text-gray-800">Kalaiselvan P</h1>
+                <p class="mb-3 text-xl text-gray-600">Mid Level Full Stack Developer</p>
+                <div class="flex flex-wrap justify-center gap-4 text-sm text-gray-600">
+                    <div class="flex items-center gap-1 h-full"><img src="./assets/communication.png" alt="" class="w-3 h-3"> <span>kalaiselvanpalanisamy16@gmail.com</span></div>
+                    <div class="flex items-center gap-1 h-full"><img src="./assets/mobile-app.png" alt="" class="w-4 h-4"><span>+91 8124213593</span></div>
+                    <div class="flex items-center gap-1 h-full"><img src="./assets/location.png" alt="" class="w-4 h-4"><span>Salem, Tamilnadu - 636112</span></div>
+                    <div class="flex items-center gap-1 h-full"><img src="./assets/linkedin.png" alt="" class="w-4 h-4"><a href="https://www.linkedin.com/in/kalaiselvan-p-3440a1255">https://www.linkedin.com/in/kalaiselvan-p-3440a1255</a></div>
+                    <div class="flex items-center gap-1 h-full"><img src="./assets/github.png" alt="" class="w-4 h-4"><a href="https://github.com/kalaiselvan37">https://github.com/kalaiselvan37</a></div>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="pb-2 mb-3 text-2xl font-bold text-gray-800 border-b-2 border-gray-300">Professional Summary</h2>
+                <p class="leading-relaxed text-gray-700 text-justify">
+                    Results-driven Full Stack Developer with 2+ years of experience building scalable web applications. 
+                    Proficient in modern JavaScript frameworks, backend technologies, and cloud infrastructure. 
+                    Passionate about clean code, performance optimization, and delivering exceptional user experiences.
+                </p>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="pb-2 mb-3 text-2xl font-bold text-gray-800 border-b-2 border-gray-300">Technical Skills</h2>
+                <div class="grid grid-cols-2 gap-4">
+                    <div>
+                        <h3 class="mb-2 font-semibold text-gray-800">Frontend</h3>
+                        <p class="text-sm text-gray-700">React, Vue.js, JavaScript (ES6+), HTML5, CSS3, Tailwind CSS, Redux, Next.js</p>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 font-semibold text-gray-800">Backend</h3>
+                        <p class="text-sm text-gray-700">Node.js, Express, RESTful APIs</p>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 font-semibold text-gray-800">Database</h3>
+                        <p class="text-sm text-gray-700">MongoDB, MySQL</p>
+                    </div>
+                    <div>
+                        <h3 class="mb-2 font-semibold text-gray-800">DevOps & Tools</h3>
+                        <p class="text-sm text-gray-700">Git, CI/CD, GitHub Actions</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="pb-2 mb-3 text-2xl font-bold text-gray-800 border-b-2 border-gray-300">Professional Experience</h2>
+                
+                <div class="mb-32">
+                    <div class="flex items-start justify-between mb-2">
+                        <div class="space-y-5">
+                            <h3 class="text-lg font-bold text-gray-800">Mid Level Full Stack Developer</h3>
+                            <p class="text-gray-700 font-semibold">Arrow Thought | Web Development & Digital Marketing Company</p>
+                        </div>
+                        <span class="text-sm text-gray-600">Oct 2023 - Present</span>
+                    </div>
+                    <ul class="ml-2 space-y-1 text-sm text-gray-700 list-disc list-inside text-justify">
+                        <li>Developed 5+ static and dynamic websites with clean UI, responsive layouts, and performance optimization.</li>
+                        <li>Built and enhanced CRM applications, improving workflow automation and client productivity.</li>
+                        <li>Contributed to full-stack e-commerce projects using React, Node.js, Express, and API integrations.</li>
+                        <li>Collaborated closely with cross-functional teams to plan, design, and implement project features effectively</li>
+                        <li>Worked with Figma for UI/UX understanding and converted design prototypes into fully functional frontend components</li>
+                        <li>Participated in sprint planning, feature breakdown, code reviews, and team discussions.</li>
+                        <li>Trained and guided interns on frontend development, helping them understand best practices and clean coding standards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="pb-2 mb-3 text-2xl font-bold text-gray-800 border-b-2 border-gray-300">Notable Projects</h2>
+
+                <div class="mb-4 text-justify">
+                    <h3 class="text-lg font-semibold text-gray-800">Government Exam Coaching Web Application — MERN Stack</h3>
+                    <p class="mb-1 mt-1 text-sm text-gray-700 ">
+                        Developed a complete web application for a government exam coaching center with student registration, personalized dashboards, 
+                        and access to courses. Created an admin panel to manage products, inventory, test series, PYQs, and quizzes. Included e-commerce 
+                        functionality for book purchases and a structured student learning workflow.
+                    </p>
+                    <p class="text-sm italic text-gray-600">Technologies: MERN Stack (MongoDB, Express, React, Node.js) * Payment Integration - Razorpay</p>
+                </div>
+
+                <div class="mb-4 text-justify">
+                    <h3 class="text-lg font-semibold text-gray-800">E-Commerce Website for Men's Fashion — MERN Stack</h3>
+                    <p class="mb-1 mt-1 text-sm text-gray-700">
+                        Built a full-stack e-commerce platform for men’s fashion with secure authentication, reusable UI components, and a 
+                        responsive interface using Tailwind CSS. Implemented product listing, cart features, and smooth user experience across 
+                        pages.
+                    </p>
+                    <p class="text-sm italic text-gray-600">Technologies: MERN Stack (MongoDB, Express, React, Node.js)</p>
+                </div>
+
+                <div class="mb-4 text-justify">
+                    <h3 class="text-lg font-semibold text-gray-800">Static Business & Portfolio Websites</h3>
+                    <p class="mb-1 mt-1 text-sm text-gray-700">
+                        Developed multiple fast, responsive, and visually appealing static websites for various clients. 
+                        Created modular components and clean UI layouts using React, Vite, and Tailwind CSS to ensure high performance 
+                        and easy scalability.
+                    </p>
+                    <p class="text-sm italic text-gray-600">Technologies: React, Vite, Tailwind CSS</p>
+                </div>
+            </div>
+
+            <div class="mb-6">
+                <h2 class="pb-2 mb-3 text-2xl font-bold text-gray-800 border-b-2 border-gray-300">Education</h2>
+                <div class="flex items-start justify-between">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800">BE - Computer Science and Engineering</h3>
+                        <p class="text-gray-600">Tagore Institute of Engineering and Technology</p>
+                        <span class="font-semibold text-gray-700">CGPA : 8.0</span>
+                    </div>
+                    <span class="text-sm text-gray-600">2019 - 2023</span>
+                </div>
+                <div class="flex items-start justify-between mt-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800">HSC</h3>
+                        <p class="text-gray-600">Jayam Matric Hr.Sec.School</p>
+                        <span class="font-semibold text-gray-700">Percentage : 75%</span>
+                    </div>
+                    <span class="text-sm text-gray-600">2019</span>
+                </div>
+                 <div class="flex items-start justify-between mt-4">
+                    <div>
+                        <h3 class="text-lg font-bold text-gray-800">SSLC</h3>
+                        <p class="text-gray-600">Jayam Matric Hr.Sec.School</p>
+                        <span class="font-semibold text-gray-700">Percentage : 90%</span>
+                    </div>
+                    <span class="text-sm text-gray-600">2017</span>
+                </div>
+            </div>
+            <div class="mb-6 text-justify">
+                <h2 class="pb-2 mb-3 text-2xl font-bold text-gray-800 border-b-2 border-gray-300">Declaration</h2>
+                <p class="text-sm text-gray-700">I hereby declare that the information provided above is true and correct to the best of my knowledge and belief.</p>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
